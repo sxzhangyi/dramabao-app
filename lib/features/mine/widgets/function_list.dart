@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../core/theme/app_icons.dart';
+import 'package:dramabao_app/core/theme/app_icons.dart';
 import 'function_item.dart';
 
 class FunctionList extends StatelessWidget {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../../core/responsive/responsive_builder.dart';
-import '../../../core/constants/layout_constants.dart';
-import 'providers/category_provider.dart';
-import 'widgets/category_sidebar.dart';
-import 'widgets/category_grid.dart';
+import 'package:dramabao_app/core/responsive/responsive_builder.dart';
+import 'package:dramabao_app/core/constants/layout_constants.dart';
+import 'package:dramabao_app/features/category/providers/category_provider.dart';
+import 'package:dramabao_app/features/category/widgets/category_sidebar.dart';
+import 'package:dramabao_app/features/category/widgets/category_grid.dart';
 
 class CategoryPage extends StatelessWidget {
   const CategoryPage({super.key});

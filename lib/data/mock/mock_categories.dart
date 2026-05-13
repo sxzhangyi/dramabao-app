@@ -1,4 +1,4 @@
-import '../../models/category_model.dart';
+import 'package:dramabao_app/models/category_model.dart';
 
 final List<CategoryModel> mockCategories = [
   const CategoryModel(id: '0', name: '全部', icon: 'apps'),

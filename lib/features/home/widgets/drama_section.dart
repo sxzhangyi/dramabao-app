@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../models/drama_model.dart';
+import 'package:dramabao_app/models/drama_model.dart';
 import 'section_header.dart';
 import 'drama_card.dart';
 

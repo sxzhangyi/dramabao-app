@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../../data/repositories/task_repository.dart';
-import '../../../data/repositories/user_repository.dart';
-import '../../../models/task_model.dart';
-import '../../../models/user_model.dart';
+import 'package:dramabao_app/data/repositories/task_repository.dart';
+import 'package:dramabao_app/data/repositories/user_repository.dart';
+import 'package:dramabao_app/models/task_model.dart';
+import 'package:dramabao_app/models/user_model.dart';
 
 class EarnProvider extends ChangeNotifier {
   final TaskRepository _taskRepo;

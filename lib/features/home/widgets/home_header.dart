@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../../../core/theme/app_colors.dart';
-import '../../../core/theme/app_typography.dart';
-import '../../../core/constants/app_constants.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_typography.dart';
+import 'package:dramabao_app/core/constants/app_constants.dart';
 
 class HomeHeader extends StatelessWidget {
   const HomeHeader({super.key});

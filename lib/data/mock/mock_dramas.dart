@@ -1,4 +1,4 @@
-import '../../models/drama_model.dart';
+import 'package:dramabao_app/models/drama_model.dart';
 
 final List<DramaModel> mockDramas = [
   DramaModel(id: '1', title: '重生之都市修仙', coverUrl: 'https://picsum.photos/seed/drama1/400/225', type: DramaType.free, category: '重生逆袭', totalEpisodes: 80, currentEpisode: 80),

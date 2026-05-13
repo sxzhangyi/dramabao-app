@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import '../../../core/theme/app_colors.dart';
-import '../../../core/constants/layout_constants.dart';
-import '../../../models/banner_model.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/constants/layout_constants.dart';
+import 'package:dramabao_app/models/banner_model.dart';
 
 class BannerCarousel extends StatefulWidget {
   final List<BannerModel> banners;

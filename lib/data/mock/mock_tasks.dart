@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../models/task_model.dart';
-import '../../../core/theme/app_icons.dart';
+import 'package:dramabao_app/models/task_model.dart';
+import 'package:dramabao_app/core/theme/app_icons.dart';
 
 final List<TaskModel> mockTasks = [
   TaskModel(

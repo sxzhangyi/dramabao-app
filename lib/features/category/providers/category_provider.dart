@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../../data/repositories/drama_repository.dart';
-import '../../../data/repositories/category_repository.dart';
-import '../../../models/drama_model.dart';
-import '../../../models/category_model.dart';
+import 'package:dramabao_app/data/repositories/drama_repository.dart';
+import 'package:dramabao_app/data/repositories/category_repository.dart';
+import 'package:dramabao_app/models/drama_model.dart';
+import 'package:dramabao_app/models/category_model.dart';
 
 class CategoryProvider extends ChangeNotifier {
   final CategoryRepository _categoryRepo;

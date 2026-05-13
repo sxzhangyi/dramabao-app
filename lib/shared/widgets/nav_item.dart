@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../core/theme/app_colors.dart';
-import '../../core/theme/app_icons.dart';
-import '../../core/theme/app_typography.dart';
-import '../decorators/coin_shimmer_decorator.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_icons.dart';
+import 'package:dramabao_app/core/theme/app_typography.dart';
+import 'package:dramabao_app/shared/decorators/coin_shimmer_decorator.dart';
 
 class NavItem extends StatelessWidget {
   final IconData icon;

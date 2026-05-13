@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../core/theme/app_colors.dart';
-import '../../core/theme/app_typography.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_typography.dart';
 
 class EmptyState extends StatelessWidget {
   final IconData icon;

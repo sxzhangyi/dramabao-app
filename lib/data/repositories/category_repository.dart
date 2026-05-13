@@ -1,5 +1,5 @@
-import '../../models/category_model.dart';
-import '../mock/mock_categories.dart';
+import 'package:dramabao_app/models/category_model.dart';
+import 'package:dramabao_app/data/mock/mock_categories.dart';
 
 abstract class CategoryRepository {
   List<CategoryModel> getAllCategories();

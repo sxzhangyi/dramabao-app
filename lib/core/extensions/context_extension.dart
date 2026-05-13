@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../theme/app_colors.dart';
-import '../theme/app_typography.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_typography.dart';
 
 extension ContextExtension on BuildContext {
   AppColors get appColors => AppColors();

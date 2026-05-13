@@ -1,7 +1,7 @@
-import '../../models/drama_model.dart';
-import '../../models/banner_model.dart';
-import '../mock/mock_dramas.dart';
-import '../mock/mock_banners.dart';
+import 'package:dramabao_app/models/drama_model.dart';
+import 'package:dramabao_app/models/banner_model.dart';
+import 'package:dramabao_app/data/mock/mock_dramas.dart';
+import 'package:dramabao_app/data/mock/mock_banners.dart';
 
 abstract class DramaRepository {
   List<DramaModel> getDramasBySection(String section);

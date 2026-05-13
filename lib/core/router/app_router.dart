@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../features/home/home_page.dart';
-import '../../features/category/category_page.dart';
-import '../../features/earn/earn_page.dart';
-import '../../features/mine/mine_page.dart';
-import '../../shared/widgets/main_shell.dart';
+import 'package:dramabao_app/features/home/home_page.dart';
+import 'package:dramabao_app/features/category/category_page.dart';
+import 'package:dramabao_app/features/earn/earn_page.dart';
+import 'package:dramabao_app/features/mine/mine_page.dart';
+import 'package:dramabao_app/shared/widgets/main_shell.dart';
 import 'route_names.dart';
 
 final GoRouter appRouter = GoRouter(

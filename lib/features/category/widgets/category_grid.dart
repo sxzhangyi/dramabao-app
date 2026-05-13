@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../core/constants/layout_constants.dart';
-import '../../../models/drama_model.dart';
+import 'package:dramabao_app/core/constants/layout_constants.dart';
+import 'package:dramabao_app/models/drama_model.dart';
 import 'category_card.dart';
 
 class CategoryGrid extends StatelessWidget {

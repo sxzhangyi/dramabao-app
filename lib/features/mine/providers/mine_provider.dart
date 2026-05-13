@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../data/repositories/user_repository.dart';
-import '../../../models/user_model.dart';
+import 'package:dramabao_app/data/repositories/user_repository.dart';
+import 'package:dramabao_app/models/user_model.dart';
 
 class MineProvider extends ChangeNotifier {
   final UserRepository _userRepo;

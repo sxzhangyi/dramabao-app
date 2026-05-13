@@ -1,5 +1,5 @@
-import '../../models/task_model.dart';
-import '../mock/mock_tasks.dart';
+import 'package:dramabao_app/models/task_model.dart';
+import 'package:dramabao_app/data/mock/mock_tasks.dart';
 
 abstract class TaskRepository {
   List<TaskModel> getAllTasks();

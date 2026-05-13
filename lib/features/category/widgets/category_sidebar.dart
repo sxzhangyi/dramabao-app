@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../../core/theme/app_colors.dart';
-import '../../../core/theme/app_typography.dart';
-import '../../../core/constants/layout_constants.dart';
-import '../../../models/category_model.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_typography.dart';
+import 'package:dramabao_app/core/constants/layout_constants.dart';
+import 'package:dramabao_app/models/category_model.dart';
 
 class CategorySidebar extends StatelessWidget {
   final List<CategoryModel> categories;

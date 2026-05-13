@@ -1,4 +1,4 @@
-import '../../models/user_model.dart';
+import 'package:dramabao_app/models/user_model.dart';
 
 final UserModel mockUserNotLoggedIn = UserModel.notLoggedIn;
 

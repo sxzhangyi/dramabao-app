@@ -1,5 +1,5 @@
-import '../../models/user_model.dart';
-import '../mock/mock_user.dart';
+import 'package:dramabao_app/models/user_model.dart';
+import 'package:dramabao_app/data/mock/mock_user.dart';
 
 abstract class UserRepository {
   UserModel getCurrentUser();

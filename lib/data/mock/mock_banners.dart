@@ -1,4 +1,4 @@
-import '../../models/banner_model.dart';
+import 'package:dramabao_app/models/banner_model.dart';
 
 final List<BannerModel> mockBanners = [
   const BannerModel(

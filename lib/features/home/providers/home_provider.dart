@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../data/repositories/drama_repository.dart';
-import '../../models/drama_model.dart';
-import '../../models/banner_model.dart';
+import 'package:dramabao_app/data/repositories/drama_repository.dart';
+import 'package:dramabao_app/models/drama_model.dart';
+import 'package:dramabao_app/models/banner_model.dart';
 
 class HomeProvider extends ChangeNotifier {
   final DramaRepository _repository;

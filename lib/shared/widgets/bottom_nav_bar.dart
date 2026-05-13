@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import '../../core/theme/app_colors.dart';
-import '../../core/theme/app_icons.dart';
-import '../../core/constants/layout_constants.dart';
-import '../../core/router/route_names.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_icons.dart';
+import 'package:dramabao_app/core/constants/layout_constants.dart';
+import 'package:dramabao_app/core/router/route_names.dart';
 import 'nav_item.dart';
 
 class BottomNavBar extends StatelessWidget {

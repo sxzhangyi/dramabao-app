@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../../core/theme/app_colors.dart';
-import '../../../core/theme/app_typography.dart';
-import '../../../core/constants/app_constants.dart';
-import '../../../core/constants/layout_constants.dart';
-import 'providers/earn_provider.dart';
-import 'widgets/earn_banner.dart';
-import 'widgets/task_list.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_typography.dart';
+import 'package:dramabao_app/core/constants/app_constants.dart';
+import 'package:dramabao_app/core/constants/layout_constants.dart';
+import 'package:dramabao_app/features/earn/providers/earn_provider.dart';
+import 'package:dramabao_app/features/earn/widgets/earn_banner.dart';
+import 'package:dramabao_app/features/earn/widgets/task_list.dart';
 
 class EarnPage extends StatelessWidget {
   const EarnPage({super.key});

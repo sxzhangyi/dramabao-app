@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../../../core/theme/app_colors.dart';
-import '../../../core/theme/app_typography.dart';
-import '../../../core/theme/app_icons.dart';
-import '../../../core/constants/app_constants.dart';
-import '../../../models/user_model.dart';
+import 'package:dramabao_app/core/theme/app_colors.dart';
+import 'package:dramabao_app/core/theme/app_typography.dart';
+import 'package:dramabao_app/core/theme/app_icons.dart';
+import 'package:dramabao_app/core/constants/app_constants.dart';
+import 'package:dramabao_app/models/user_model.dart';
 
 class EarnBanner extends StatelessWidget {
   final UserModel user;
