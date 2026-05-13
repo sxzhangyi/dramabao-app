@@ -19,9 +19,10 @@ class _CoinShimmerDecoratorState extends State<CoinShimmerDecorator>
     _controller = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 1500),
-      lowerBound: 0.0,
-      upperBound: 1.0,
     )..repeat(reverse: true);
+    _controller.addListener(() {
+      setState(() {});
+    });
   }
 
   @override
@@ -32,20 +33,14 @@ class _CoinShimmerDecoratorState extends State<CoinShimmerDecorator>
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: _controller,
-      builder: (context, child) {
-        final scale = 1.0 + 0.2 * _controller.value;
-        final opacity = 1.0 - 0.4 * _controller.value;
-        return Transform.scale(
-          scale: scale,
-          child: Opacity(
-            opacity: opacity,
-            child: child,
-          ),
-        );
-      },
-      child: widget.child,
+    final scale = 1.0 + 0.2 * _controller.value;
+    final opacity = 1.0 - 0.4 * _controller.value;
+    return Transform.scale(
+      scale: scale,
+      child: Opacity(
+        opacity: opacity,
+        child: widget.child,
+      ),
     );
   }
 }
