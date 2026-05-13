@@ -23,20 +23,11 @@ jobs:
           flutter-version: '3.24.5'
           channel: 'stable'
 
-      - name: Regenerate Android project
-        run: |
-          # Remove old android dir
-          rm -rf android
-          # Create a temp flutter project just to get android dir
-          cd /tmp
-          flutter create --org com.dramabao --project-name dramabao_app temp_app
-          # Copy android dir back
-          cp -r /tmp/temp_app/android $GITHUB_WORKSPACE/android
-          # Remove temp
-          rm -rf /tmp/temp_app
-
       - name: Install dependencies
         run: flutter pub get
+
+      - name: Analyze code
+        run: flutter analyze --no-fatal-infos || true
 
       - name: Build APK
         run: flutter build apk --release
